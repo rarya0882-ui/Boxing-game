@@ -1,0 +1,6 @@
+{
+  "name": "Boxing Scholar",
+  "description": "An academic boxing game focusing on paragraph structure, adjective clauses, comma logic, apostrophes, and paragraph unity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
