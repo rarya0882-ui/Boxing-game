@@ -36,7 +36,7 @@ export default function BoxingRing({
   const [fightScore, setFightScore] = useState(0);
 
   // Time limit details
-  const timeLimit = Math.max(3, 5 + playerStats.speed - enemy.speed);
+  const timeLimit = Math.max(3, 15 + playerStats.speed - enemy.speed);
   const [timerSeconds, setTimerSeconds] = useState(timeLimit);
   const timerRef = useRef<any>(null);
 
